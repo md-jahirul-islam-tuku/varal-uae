@@ -1,0 +1,13 @@
+span {
+  text-decoration-line: underline;
+  text-decoration-color: #FFA500;
+  text-decoration-thickness: 8px;
+}
+
+.head p {
+  width: 600px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ADADAD;
+  margin: auto;
+}

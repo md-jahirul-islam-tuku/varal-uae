@@ -1,0 +1,146 @@
+/* Search Button css code first and header css code under */
+
+.headerContainer{
+  padding-top: 90px;
+}
+.searchContainer {
+  display: flex;
+  justify-content: end;
+  color: #525DED;
+  margin: 25px 0;
+}
+
+.inputGroup {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+input[type=text] {
+  border-radius: 5px;
+  height: 30px;
+  line-height: 30px;
+  padding: 8px 6px 8px 52px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: middle;
+  border: 2px solid #525DED;
+}
+
+.search::placeholder {
+  color: #525DED;
+}
+
+input[type=text]:focus {
+  border: 2px solid #525DED;
+}
+
+.inputGroup .innerIcon {
+  position: absolute;
+  top: 11px;
+  left: 15px;
+  z-index: 0;
+  display: block;
+  text-align: center;
+  pointer-events: none;
+}
+
+.searchIcon {
+  height: 30px;
+  width: 25px;
+}
+
+/* Header CSS Code Here */
+.header {
+  display: flex;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.side2 {
+  width: 50%;
+}
+
+.side1 {
+  width: 50%;
+  text-align: left;
+}
+
+.side1 span {
+  text-decoration-line: underline;
+  text-decoration-color: #FFA500;
+  text-decoration-thickness: 8px;
+}
+
+.side2 img {
+  width: 700px;
+}
+
+.side1 h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #525DED;
+  margin: 0;
+}
+
+.side1 h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #525DED;
+}
+
+.side1 h1 {
+  font-size: 54px;
+  margin: 0;
+}
+
+.side1 p {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ADADAD;
+  margin: 0;
+}
+
+.btn .btn1 {
+  height: 60px;
+  border-radius: 5px 0 0 5px;
+  background-color: white;
+  color: #525DED;
+  border: 1px solid #525DED;
+  transition-duration: 0.2s;
+}
+
+.btn .btn1:hover {
+  background-color: #525DED;
+  color: white;
+}
+
+.btn .btn2 {
+  height: 60px;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  color: #525DED;
+  border: 1px solid #525DED;
+  transition-duration: 0.2s;
+}
+
+.btn .btn2:hover {
+  background-color: #525DED;
+  color: white;
+}
+.endLine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #525DED;
+}
+.endLine img{
+  height: 20px;
+  width: 20px;
+  border: 2px solid #525DED;
+  border-radius: 50%;
+  padding: 3px 4px 4px 3px;
+}
