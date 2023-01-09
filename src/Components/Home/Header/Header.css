@@ -156,3 +156,14 @@ input[type=text]:focus {
   border-radius: 50%;
   padding: 3px 4px 4px 3px;
 }
+.endLine a{
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+.header{
+  display: block;
+  justify-content: center;
+}
+}

@@ -47,6 +47,7 @@
 
 /* Comments CSS Code */
 .CommentsHeading {
+  margin-top: 50px;
   width: 55%;
   padding: 0 0 0 25px;
   border-left: 8px solid #525DED;
@@ -102,27 +103,51 @@
   padding: 0 0 0 25px;
   border-left: 8px solid #525DED;
 }
-.RightSide p{
+
+.RightSide p {
   font-size: 20px;
   color: #ADADAD;
   font-weight: 600;
   margin: 5px 0;
 }
-.wholeInfo{
+
+.wholeInfo {
   width: 350px;
 }
-.email{
+
+.wholeInfo a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ADADAD;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.wholeInfo a:hover {
+  color: #000;
+}
+
+.email {
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
-.email #email{
+
+.email #email {
   height: 50px;
+  width: 100%;
   border: none;
   border-radius: 0;
   background-color: #f3f3f3;
 }
-.socialMedia img{
+
+.socialMedia img {
   margin-top: 30px;
   margin-right: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+.AboutContainer{
+  display: block;
+}
 }

@@ -88,19 +88,19 @@ const About = () => {
         </div>
         <div className='wholeInfo'>
           <h3>Services</h3>
-          <p>Products</p>
-          <p>Solutions</p>
-          <p>Assurance</p>
-          <p>FAQ</p>
-          <p>Working at Varal-Singhania</p>
+          <p><a href='#9'>Products</a></p>
+          <p><a href='#9'>Solutions</a></p>
+          <p><a href='#9'>Assurance</a></p>
+          <p><a href='#9'>FAQ</a></p>
+          <p><a href='#9'>Working at Varal-Singhania</a></p>
           <h3>Policies</h3>
-          <p>Privacy Policy</p>
-          <p>Terms & Conditions</p>
+          <p><a href="#9">Privacy Policy</a></p>
+          <p><a href="#9">Terms & Conditions</a></p>
           <h3>About</h3>
-          <p>About Us</p>
-          <p>Contact us</p>
+          <p><a href="#9">About Us</a></p>
+          <p><a href="#9">Contact us</a></p>
           <h3>Address</h3>
-          <p>608 One Lake Plaza, Cluster T, Al Sarayat Street, Jumeirah Lake Towers Dubai United Arab Emirates</p>
+          <p>608 One Lake Plaza, Cluster T, Al Sarayat Street, Jumeirah Lake Towers Dubai United Arab Emirates</p><br />
           <p>Office Hours: Sunday to Thursday 8:30 AM to 6:30 PM [GMT+4] M: +971 55 794 2016 O: +971 4 447 2061</p>
           <h3>Subscribe Now</h3>
           <p>Sunbscribe now to receive our
@@ -111,10 +111,10 @@ const About = () => {
           <input id='email' type="text" placeholder='Enter email address' /><img src={logo3} alt="" />
         </div>
         <div className='socialMedia'>
-          <img src={facebook} alt="" />
-          <img src={instagram} alt="" />
-          <img src={linkedIn} alt="" />
-          <img src={youTube} alt="" />
+          <a href="#8"><img src={facebook} alt="" /></a>
+          <a href="#8"><img src={instagram} alt="" /></a>
+          <a href="#8"><img src={linkedIn} alt="" /></a>
+          <a href="#8"><img src={youTube} alt="" /></a>
         </div>
       </div>
     </div>
