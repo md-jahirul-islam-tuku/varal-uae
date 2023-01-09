@@ -1,0 +1,66 @@
+.PricingContainer{
+  width: 1280px;
+  margin: auto;
+}
+.PricingCardContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.PricingCard{
+  color: #525DED;
+  text-align: left;
+  border: 1px solid #ADADAD;
+  padding: 5px 40px;
+  border-radius: 10px;
+  width: 330px;
+  transition: 0.4s;
+}
+.PricingCard:hover{
+  background-color: #525DED;
+  color: white;
+  border: 1px solid #525DED;
+  transform: scale(1.07);
+}
+.PricingHeading h2{
+  width: 460px;
+  margin: auto;
+  padding: 100px 0;
+}
+.PricingHeading span {
+  text-decoration: underline;
+  text-decoration-color: #FFA500;
+  text-decoration-thickness: 7px;
+  text-underline-position: under;
+  text-underline-offset: 1px;
+}
+.PricingCard p{
+  display: flex;
+  align-items: center;
+}
+.PricingCard h2{
+  font-size: 32px;
+}
+.PricingCard span{
+  font-size: 18px;
+  font-weight: 400;
+  color: #ADADAD;
+}
+.priceIcon{
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+.PricingCard button {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  color: #525DED;
+  border: 1px solid #525DED;
+  transition-duration: 0.2s;
+}
+.PHead{
+  font-size: 19px;
+  font-weight: 500;
+}

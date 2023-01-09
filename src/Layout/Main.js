@@ -4,10 +4,7 @@ import Navbar from '../Components/Shared/Navbar';
 
 const Main = () => {
   return (
-    <div style={{
-      width: '1280px',
-      margin: 'auto'
-      }}>
+    <div>
       <Navbar/>
       <Outlet/>
     </div>

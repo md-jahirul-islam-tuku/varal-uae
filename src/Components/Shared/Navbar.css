@@ -1,21 +1,22 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
+.navbarContainer {
+  background-color: white;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
   width: 1280px;
   background-color: white;
-  padding-top: 15px;
 }
 
-.nav {
-  display: flex;
-}
-
-button {
-  padding: 0 20px;
-  margin: 7px 0;
+.nav ul li button {
+  padding: 20px 15px;
   font-size: 18px;
   background-color: #525DED;
   border: none;
@@ -24,15 +25,17 @@ button {
   cursor: pointer;
 }
 
-ul {
-  list-style-type: none;
-}
-
-li {
+.nav ul li {
   float: left;
 }
 
-a {
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li a {
   display: block;
   padding: 8px;
   text-decoration: none;
@@ -41,10 +44,10 @@ a {
   color: #ADADAD;
 }
 
-li a:hover {
+.nav ul li a:hover {
   color: black;
 }
 
-li a:active {
+.nav ul li a:active {
   color: black;
 }

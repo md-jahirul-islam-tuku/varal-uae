@@ -2,6 +2,8 @@
 
 .headerContainer{
   padding-top: 90px;
+  width: 1280px;
+  margin: auto;
 }
 .searchContainer {
   display: flex;
@@ -99,18 +101,25 @@ input[type=text]:focus {
 
 .side1 p {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
   color: #ADADAD;
   margin: 0;
+}
+.btn{
+  margin: 9px 0;
 }
 
 .btn .btn1 {
   height: 60px;
+  padding: 0 20px;
+  font-size: 18px;
   border-radius: 5px 0 0 5px;
   background-color: white;
   color: #525DED;
   border: 1px solid #525DED;
+  border-right: 0;
   transition-duration: 0.2s;
+  cursor: pointer;
 }
 
 .btn .btn1:hover {
@@ -120,11 +129,14 @@ input[type=text]:focus {
 
 .btn .btn2 {
   height: 60px;
+  padding: 0 20px;
+  font-size: 18px;
   border-radius: 0 5px 5px 0;
   background-color: white;
   color: #525DED;
   border: 1px solid #525DED;
   transition-duration: 0.2s;
+  cursor: pointer;
 }
 
 .btn .btn2:hover {

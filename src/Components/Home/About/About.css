@@ -1,0 +1,128 @@
+.AboutContainer {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.LeftSide {
+  width: 50%;
+}
+
+.RightSide {
+  width: 35%;
+}
+
+.blogHeading {
+  width: 55%;
+  padding: 0 0 0 25px;
+  border-left: 8px solid #525DED;
+}
+
+.blog {
+  display: flex;
+  text-align: left;
+  width: 60%;
+  padding: 20px 20px 20px 0;
+  transition: 0.4s;
+}
+
+.blog img {
+  height: 40px;
+  margin-right: 10px;
+  padding: 15px;
+  border: 2px solid #525DED;
+  border-radius: 8px;
+}
+
+.blog h3 {
+  margin: 0;
+}
+
+.blog p {
+  margin: 0;
+  color: #525DED;
+}
+
+/* Comments CSS Code */
+.CommentsHeading {
+  width: 55%;
+  padding: 0 0 0 25px;
+  border-left: 8px solid #525DED;
+}
+
+.comments {
+  display: flex;
+  text-align: left;
+  width: 60%;
+  padding: 20px 20px 20px 0;
+  transition: 0.4s;
+}
+
+.comments img {
+  height: 40px;
+  padding: 10px;
+  border: 2px solid #525DED;
+  border-radius: 50%;
+}
+
+.user {
+  border-bottom: 3px solid #525DED;
+  margin-bottom: 8px;
+}
+
+.commentInfo {
+  margin-left: 30px;
+  display: flex;
+}
+
+.commentInfo img {
+  height: 10px;
+  border: none;
+  border-radius: 0;
+  padding: 0 10px;
+}
+
+.commentInfo .comment p {
+  margin-top: 3px;
+}
+
+.comments h3 {
+  margin: 10px 0 0 0;
+}
+
+.comments p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.wholeHeading {
+  width: 55%;
+  padding: 0 0 0 25px;
+  border-left: 8px solid #525DED;
+}
+.RightSide p{
+  font-size: 20px;
+  color: #ADADAD;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.wholeInfo{
+  width: 350px;
+}
+.email{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.email #email{
+  height: 50px;
+  border: none;
+  border-radius: 0;
+  background-color: #f3f3f3;
+}
+.socialMedia img{
+  margin-top: 30px;
+  margin-right: 30px;
+}

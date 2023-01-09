@@ -16,7 +16,7 @@ const Header = () => {
       <div className='header'>
         <div className='side1'>
           <h4>Claim a Free Quote</h4>
-          <h1><span>Get started</span> on fulfilling
+          <h1><span>Get started </span>on fulfilling
             your Dubai or UAE
             dream.</h1>
           <h3>UAE & Offshore Company</h3>
